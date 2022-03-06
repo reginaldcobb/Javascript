@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="grid.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+    </div>
+
+    <div>
+		<button onclick=startGame() id="startGame">New Game</button>
+		<!-- <button  onclick="window.location.href='todo.html';" id="addComment"  target="_blank">Got a Comment, Feedback, etc.?</button> -->
+		<button onclick="window.open('todo.html','_blank');">Feedback or Ideas?</button>
+		<button onclick="window.open('help.html','_blank');">How to Play</button>
+	</div>
+    <div>
+		<strong>
+			Target Value:
+			<p id="target"></p>
+		</strong>
+	</div>
+    
+	Size of Grid <input type="text" id="gridSize" maxlength="2" size="3">
+	<p></p>
+	Number to Play <input type="text" id="playValue" maxlength="2" size="3">
+	<p></p>
+	Score <input type="text" id="player1Label" maxlength="2" size="3">
+	<!-- <p id="player1label">Score</p> <input type="text" id="player1Label" maxlength="2" size="3"> -->
+	<!-- <p id="player2label">Player 2</p>
+	<input type="text" id="player2Label" maxlength="2" size="3"> -->
+	<!-- <button onclick="getValue()" >Get New Value</button><br>    -->
+</body>
+
+</html>
